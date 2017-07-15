@@ -1,15 +1,29 @@
 {
-  "name": "geo-coords-distance",
   "version": "1.0.0",
-  "description": "Module for counting distances on the Earth.",
-  "main": "distance.js",
+  "name": "geo-coords-distance",
+  "description": "",
+  "main": "lib/distance.js",
   "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "babel src/distance.js --out-file lib/distance.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pasvistelik/geo-coords-distance.git"
   },
   "keywords": [
     "geo-coords",
     "distances"
   ],
   "author": "Andrey Pasvistelik",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pasvistelik/geo-coords-distance/issues"
+  },
+  "homepage": "https://github.com/pasvistelik/geo-coords-distance#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0"
+  }
 }
