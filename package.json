@@ -1,0 +1,15 @@
+{
+  "name": "geo-coords-distance",
+  "version": "1.0.0",
+  "description": "Module for counting distances on the Earth.",
+  "main": "distance.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "geo-coords",
+    "distances"
+  ],
+  "author": "Andrey Pasvistelik",
+  "license": "MIT"
+}
