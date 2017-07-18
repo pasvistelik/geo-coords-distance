@@ -1,11 +1,11 @@
 {
-  "version": "2.0.1",
+  "version": "2.0.4",
   "name": "geo-coords-distance",
   "description": "Module for counting distances on the Earth.",
   "main": "lib/distance.js",
   "scripts": {
     "build": "babel src --out-dir lib",
-    "preinstall": "npm run build",
+    "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
